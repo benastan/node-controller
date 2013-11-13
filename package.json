@@ -1,0 +1,25 @@
+{
+  "name": "node-controller",
+  "version": "0.0.0",
+  "description": "Rails-style controllers for node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script test.coffee",
+    "test-debug": "mocha --compilers coffee:coffee-script --debug-brk -d test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "benastan/node-controller"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "express": "*",
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*",
+    "supertest": "*",
+    "mocha": "*"
+  },
+  "author": "Ben Bergstein",
+  "license": "BSD"
+}
